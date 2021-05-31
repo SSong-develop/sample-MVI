@@ -2,6 +2,9 @@ package com.ssong_develop.samplemvi.ui.viewstate
 
 import com.ssong_develop.samplemvi.data.entity.User
 
+/**
+ * Each State can be loaded on to the view by the user intents
+ */
 sealed class MainState {
     object Idle : MainState()
     object Loading : MainState()
